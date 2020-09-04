@@ -1,0 +1,306 @@
+:root{
+	--cor1: rgb(112, 176, 75);
+	--cor2: rgb(0, 159, 84);
+	--cor3: rgb(7, 169, 154);
+	--cor4: rgb(12, 154, 91);
+	--cor5: rgb(60, 69, 90);
+}
+
+.cor1{
+	color: var(--cor1)
+}
+
+.cor2{
+	color: var(--cor2)
+}
+
+.cor3{
+	color: var(--cor3)
+}
+
+.cor4{
+	color: var(--cor4)
+}
+
+.cor5{
+	color: var(--cor5)
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/frutas.jpg) no-repeat;
+	font-family: 'Baloo Da 2', cursive, Helvetica, sans-serif;
+}
+
+#topo{
+	padding: 130px 100px 10px 40%;
+}
+
+h1{
+	display: inline-block;
+	float: left;
+}
+
+#topo h2{
+	border: none;
+	background: none;
+	border-radius: 30px 0px 0px 30px;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, .8), 
+		rgba(236, 244, 246, 0));
+}
+/*242, 246, 277,*/
+
+#topo p{
+	font-size: 1.5em;
+}
+
+
+img{
+	float: right;
+	width: 190px;
+}
+
+
+.verde{
+	color: #088A08; 
+}
+
+.life{
+	font-family: 'Rowdies', cursive;
+	padding-left: 20px;
+	font-size: 6.5em;
+	line-height: 1em;
+	text-shadow: 3px 3px 6px rgba(0, 0, 0, .8);
+}
+
+h2{
+	text-align: center;
+	background: #D8D8D8;
+}
+
+#topo .video h2{
+	margin-top: 30px;
+	text-align: center;
+}
+
+#topo p.italic{
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+h3{
+	margin: 10px;
+}
+
+/*
+.botaologin{
+	color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 3px;
+	width: 170px;
+	height: 30px;
+	background: linear-gradient(90deg, #58D3F7, #0040FF);
+}
+
+.botaologin:hover{
+	cursor: pointer;
+	background: linear-gradient(90deg, #00BFFF, #0000FF);
+}
+
+.botaoacesse{
+	color: white;
+	font-size: 1.6em;
+	border: none;
+	border-radius: 10px;
+	width: 40%;
+	height: 50px;
+	min-width: 250px;
+	background: #FFBF00;
+}
+
+.botaoacesse:hover{
+	margin-right: 10px;
+	background: #FFBF00;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px black;
+	transition: 0.3s;
+}
+*/
+
+.botaoteste{
+	color: white;
+	font-size: 1.6em;
+	border: none;
+	border-radius: 10px;
+	width: 40%;
+	height: 50px;
+	min-width: 450px;
+	margin-top: 50px;
+	background: #088A08;
+	box-shadow: 0px 0px 15px 0px #049401;
+}
+
+
+.botaoteste:hover{
+	margin-right: 10px;
+	background: #088A08;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px black;
+	transition: 0.3s;
+}
+
+iframe{
+	border-radius: 10px;
+}
+
+.video{
+	text-align: center;
+}
+
+#pacientes{
+	background: linear-gradient(115deg, #21610B, #A9F5A9);
+	padding: 50px 50px 50px 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.caixa{
+	border-radius: 4px;
+	box-shadow: 1px 1px 2px black;
+	text-align: center;
+	margin: 50px;
+	width: 310px;
+	height: 210px;
+	min-width: 300px;
+	min-height: 210px;
+	background: rgb(169, 245, 169, 0.3);
+}
+
+i{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#nutricionistas{
+	padding: 50px 50px 50px 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background: url(../img/nutri.jpg) no-repeat bottom;
+}
+
+
+#texto{
+	width: 50vw;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 1.4em;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+#texto .botaoteste{
+	font-size: 1.5em;
+	position: sticky;
+	bottom: 0;
+	min-width: 290px;
+}
+
+#texto h2{
+	font-size: 2em;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+
+
+.assinatura{
+	text-align: right;
+}
+
+#texto ul{
+	list-style: none;
+	color: red;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+#texto ul li{
+	margin-top: 15px;
+}
+
+#texto ul li i{
+	margin-right: 15px;
+}
+
+.centralizar{
+	text-align: center;
+	padding-bottom: 35px;
+	position: sticky;
+	bottom: 0;
+}
+
+.centralizar button{
+	box-shadow: 0px 0px 15px 0px #049401;
+}
+
+
+#texto .video2{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/*
+
+footer{
+	background: #D8D8D8;
+	text-align: center;
+}
+
+footer h2{
+	text-align: center;
+	background: #D8D8D8;
+}
+
+footer i{
+	margin: 30px;
+}
+
+.face{
+	color: rgb(58, 85, 159);
+}
+
+.twitter{
+	color: rgb(94, 169, 221);
+}
+
+.whats{
+	color: rgb(44, 183, 66);
+}
+
+.insta{
+	border-radius: 10px;
+	background: linear-gradient(45deg, #FBCF6B, #E1163D, #7E3AB1);
+}
+
+footer a{
+	color: white;
+}
+
+*/

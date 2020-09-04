@@ -1,0 +1,34 @@
+
+#topo{
+	padding: 150px 10% 10px 10%;
+	height: 100%;
+	font-size: 1.7em;
+}
+
+iframe{
+	width: 80vw;
+}
+
+#topo p{
+	background: rgba(242,246,247, .3);
+	margin: 0px 35% 0px 35%;
+	border: none;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+#topo h3{
+	border-radius: 10px 10px 0px 0px;
+	margin: 0px 20% 0px 20%;
+	background: rgba(242,246,247, .6);
+}
+
+#topo h2{
+	border-radius: 90px 0px 0px 60px;
+	background: rgba(242,246,247, .6);
+}
+
+#texto{
+	width: 90vw;
+}
+
