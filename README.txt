@@ -1,3 +1,8 @@
 
 Projeto acadêmico de um site/App para nutrição.
-Ainda em construção.
+Landing page.
+
+
+
+
+// ***************** academic purpose only ******************//
